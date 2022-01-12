@@ -1,0 +1,64 @@
+{
+  "unban": {
+    "usage": "unban <user>",
+    "aliases": [
+      "unban"
+    ],
+    "example": "unban @soosBot",
+    "description": "This command will unban the user provided.",
+    "category": "moderation",
+    "nsfw": "false"
+  },
+  "warn": {
+    "usage": "warn <user> <reason>",
+    "aliases": [
+      "warn"
+    ],
+    "example": "warn @soos creating the best discord bot there is.",
+    "description": "Will DM the provided user the provided warning. As of now, there is no warn tracking.",
+    "category": "moderation",
+    "nsfw": "false"
+  },
+  "purge": {
+    "usage": "purge",
+    "aliases": [
+      "purge"
+    ],
+    "example": "purge 10",
+    "description": "This command will delete the # of messages given from that channel.",
+    "category": "moderation",
+    "nsfw": "false"
+  },
+  "kick": {
+    "usage": "kick <user> <reason>",
+    "aliases": [
+      "kick"
+    ],
+    "example": "kick @soosBot too good bot",
+    "description": "This command will kick the user provided with the reason provided.",
+    "category": "moderation",
+    "nsfw": "false"
+  },
+  "ban": {
+    "usage": "ban <user> <reason>",
+    "aliases": [
+      "ban"
+    ],
+    "example": "ban @soosBot too good bot",
+    "description": "This command will ban the user provided with the reason provided.",
+    "category": "moderation",
+    "nsfw": "false"
+  },
+  "prefix": {
+    "usage": "prefix <prefix>",
+    "aliases": [
+      "prefix",
+      "changeprefix",
+      "change-prefix"
+    ],
+    "example": "prefix -",
+    "description": "This command will change soosBot's prefix. Mention soosBot to view its current prefix.",
+    "category": "moderation",
+    "nsfw": "false"
+  }
+}

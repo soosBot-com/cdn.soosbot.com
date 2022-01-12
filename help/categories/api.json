@@ -1,0 +1,113 @@
+{
+  "tts": {
+    "usage": "tts <text>",
+    "aliases": [
+      "text-to-speech",
+      "tts"
+    ],
+    "example": "tts soosBot is a great bot!",
+    "description": "This command will generate a text to speech file from the text given.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "fact": {
+    "usage": "fact",
+    "aliases": [
+      "fact"
+    ],
+    "example": "fact",
+    "description": "This command will give a random fact.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "weather": {
+    "usage": "weather <place>",
+    "aliases": [
+      "weather"
+    ],
+    "example": "weather new york",
+    "description": "This command will give the weather of the place provided.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "joke": {
+    "usage": "joke",
+    "aliases": [
+      "joke"
+    ],
+    "example": "joke",
+    "description": "This command will give a random joke.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "love": {
+    "usage": "love",
+    "aliases": [
+      "love"
+    ],
+    "example": "love",
+    "description": "This command will prompt the user to give two names, and will calculate the % of love between them. \\n(Info not 100% accurate)",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "ymjoke": {
+    "usage": "ymjoke",
+    "aliases": [
+      "ymjoke"
+    ],
+    "example": "ymjoke",
+    "description": "This command will give a random yo momma joke.",
+    "category": "api",
+    "nsfw": "true"
+  },
+  "quote": {
+    "usage": "quote",
+    "aliases": [
+      "quote"
+    ],
+    "example": "quote",
+    "description": "This command will give a random famous quote",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "covid": {
+    "usage": "covid <country>",
+    "aliases": [
+      "covid"
+    ],
+    "example": "covid usa",
+    "description": "This command will give covid data for the country given.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "flag": {
+    "usage": "flag <place>",
+    "aliases": [
+      "flag"
+    ],
+    "example": "flag usa",
+    "description": "This command will give the flag, and other info about the place provided.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "translate": {
+    "usage": "sb translate <text>",
+    "aliases": [
+      "translate"
+    ],
+    "example": "translate \u00bfHola como estas?",
+    "description": "This command will translate the given text into english.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "translate-to": {
+    "usage": "sb translate-to <language> <text>",
+    "aliases": [
+      "translate-to"
+    ],
+    "example": "translate spanish Hello, how are you?",
+    "description": "This command will translate the given text into the given language.",
+    "category": "api",
+    "nsfw": "false"
+  }
+}

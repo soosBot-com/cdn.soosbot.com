@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&family=Montserrat:wght@100;200;400&family=Orbitron&family=Poppins:wght@100;200;400&family=Roboto:wght@100;400&display=swap');
+
+:root {
+    /*Fonts*/
+    --Lexend-Deca: 'Lexend Deca', sans-serif;
+    --Montserrat: 'Montserrat', sans-serif;
+    --Orbitron: 'Orbitron', sans-serif;
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    /*Colors*/
+    --Blurple: #7289DA;
+    --Dark: #2C2F33;
+    --Darker: #23272A;
+    --Greyple: #99AAB5;
+    --Not-White: #EEE;
+}
+
+.nav {
+    display: flex;
+    max-width: 1500px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+    /*.nav-left {}*/
+        .nav-left header {
+            display: flex;
+            align-items: center;
+            margin-left: 25px;
+        }
+            .nav-left header img {
+                height: 63.5px;
+                display: inline;
+            }
+
+    /*.nav-main {}*/
+        .nav-main ul {
+            display: flex;
+        }
+            .nav-main ul li {
+                margin: 0 25px;
+            }
+                .nav-main ul li a {
+                    padding: 8px;
+                    font-size: 30px;
+                    border-radius: 8px;
+                    transition: .5s;
+                }
+                .nav-main ul li a:hover {
+                    background: var(--Dark);     
+                }
+                    /*.nav-main ul li a i {}*/
+    
+    .nav-right {
+        margin-right: 25px;
+    }
+        .nav-right button {
+            outline: none;
+            border: none;
+            background: var(--Blurple);
+            padding: 15px;
+            font-size: 30px;
+            border-radius: 5px;
+            letter-spacing: 2px;
+            font-family: var(--Montserrat);
+            cursor: pointer;
+            transition: .5s;
+        }
+        .nav-right button:hover {
+            box-shadow: 0px 0px 10px 2px var(--Blurple);
+        }

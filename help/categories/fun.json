@@ -1,0 +1,32 @@
+{
+  "answer": {
+    "usage": "answer <question>",
+    "aliases": [
+      "answer","8-ball"
+    ],
+    "example": "answer is soosBot the best bot?",
+    "description": "This command will give an answer to the question like a 8ball",
+    "category": "fun",
+    "nsfw": "false"
+  },
+  "roll": {
+    "usage": "roll",
+    "aliases": [
+      "roll"
+    ],
+    "example": "roll",
+    "description": "This command will roll a 6 sided die.",
+    "category": "fun",
+    "nsfw": "false"
+  },
+  "say": {
+    "usage": "say <text>",
+    "aliases": [
+      "say"
+    ],
+    "example": "say",
+    "description": "Sb say soosBot is the best bot.",
+    "category": "fun",
+    "nsfw": "false"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "ping": {
+    "usage": "ping",
+    "aliases": [
+      "ping"
+    ],
+    "example": "ping",
+    "description": "ping",
+    "category": "miscellaneous",
+    "nsfw": "false"
+  },
+  "invite": {
+    "usage": "invite",
+    "aliases": [
+      "invite"
+    ],
+    "example": "invite",
+    "description": "This command will give a invite link for soosBot.",
+    "category": "miscellaneous",
+    "nsfw": "false"
+  }
+}

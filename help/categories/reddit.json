@@ -1,0 +1,33 @@
+{
+  "posts": {
+    "usage": "posts <subreddit>",
+    "aliases": [
+      "posts",
+      "r"
+    ],
+    "example": "posts ksi",
+    "description": "This command will grab a post from the subreddit you give it. If the subreddit has a space, just remove it. Unfortunately, you cannot save posts to your collection with this command.",
+    "category": "reddit",
+    "nsfw": "false"
+  },
+  "meme": {
+    "usage": "meme",
+    "aliases": [
+      "meme"
+    ],
+    "example": "meme",
+    "description": "This command will grab a meme from reddit, and will send it in the channel you are in. You can also react to the bookmark <:soosBot_save:795131937592311848> to save the meme to your collection. \n * *See the ``saved`` command.*",
+    "category": "reddit",
+    "nsfw": "true"
+  },
+  "saved": {
+    "usage": "saved",
+    "aliases": [
+      "saved"
+    ],
+    "example": "saved",
+    "description": "This command will let you browse your saved memes. \n * *See the ``meme`` command.*",
+    "category": "reddit",
+    "nsfw": "true"
+  }
+}

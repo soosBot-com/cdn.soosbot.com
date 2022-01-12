@@ -1,0 +1,62 @@
+{
+  "bingus": {
+    "usage": "bingus",
+    "aliases": [
+      "bingus"
+    ],
+    "example": "bingus",
+    "description": "This command is a custom command. To get one, win a event or ask soos#6008",
+    "category": "custom",
+    "nsfw": "false"
+  },
+  "TheFatBird": {
+    "usage": "TheFatBird",
+    "aliases": [
+      "TheFatBird"
+    ],
+    "example": "TheFatBird",
+    "description": "This command is a custom command. To get one, win a event or ask soos#6008",
+    "category": "custom",
+    "nsfw": "false"
+  },
+  "wink": {
+    "usage": "wink",
+    "aliases": [
+      "wink"
+    ],
+    "example": "wink",
+    "description": "This command is a custom command. To get one, win a event or ask soos#6008",
+    "category": "custom",
+    "nsfw": "false"
+  },
+  "horny": {
+    "usage": "horny",
+    "aliases": [
+      "horny"
+    ],
+    "example": "horny",
+    "description": "This command is a custom command. To get one, win a event or ask soos#6008",
+    "category": "custom",
+    "nsfw": "false"
+  },
+  "whoismars": {
+    "usage": "whoismars",
+    "aliases": [
+      "whoismars"
+    ],
+    "example": "whoismars",
+    "description": "This command is a custom command. To get one, win a event or ask soos#6008",
+    "category": "custom",
+    "nsfw": "false"
+  },
+  "thanks": {
+    "usage": "thanks",
+    "aliases": [
+      "thanks"
+    ],
+    "example": "thanks",
+    "description": "This command is a custom command. To get one, win a event or ask soos#6008",
+    "category": "custom",
+    "nsfw": "false"
+  }
+}

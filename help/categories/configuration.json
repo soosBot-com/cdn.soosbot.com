@@ -1,0 +1,40 @@
+{
+  "reset-status": {
+    "usage": "reset-status",
+    "aliases": [
+      "reset-status",
+      "r-s"
+    ],
+    "example": "reset-status",
+    "description": "This command will reset your soosBot status.",
+    "category": "configuration",
+    "nsfw": "true"
+  },
+  "set-status": {
+    "usage": "set-status <status>",
+    "aliases": [
+      "set-status"
+    ],
+    "example": "set-status Doing homework!",
+    "description": "This command will set your soosBot status to what is provided. Bad words will be blocked.",
+    "category": "configuration",
+    "nsfw": "false"
+  },
+  "profile": {
+    "usage": "profile <user>",
+    "aliases": [
+      "p",
+      "av",
+      "pfp",
+      "info",
+      "whois",
+      "avatar",
+      "status",
+      "profile"
+    ],
+    "example": "profile @soosBot",
+    "description": "This command will give the profile picture and date the account was made of the user. If user is not provided, it will use the person who used the command.",
+    "category": "configuration",
+    "nsfw": "false"
+  }
+}

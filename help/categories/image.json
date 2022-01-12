@@ -1,0 +1,52 @@
+{
+  "person": {
+    "usage": "person",
+    "aliases": [
+      "person"
+    ],
+    "example": "person",
+    "description": "This command will generate a person that does not exist.",
+    "category": "image",
+    "nsfw": "false"
+  },
+  "fox": {
+    "usage": "fox",
+    "aliases": [
+      "fox"
+    ],
+    "example": "fox",
+    "description": "This command will give you a random picture of a fox.",
+    "category": "image",
+    "nsfw": "false"
+  },
+  "bird": {
+    "usage": "bird",
+    "aliases": [
+      "bird"
+    ],
+    "example": "bird",
+    "description": "This command will give you a random picture of a bird.",
+    "category": "image",
+    "nsfw": "false"
+  },
+  "dog": {
+    "usage": "dog",
+    "aliases": [
+      "dog"
+    ],
+    "example": "dog",
+    "description": "This command will give you a random picture of a dog.",
+    "category": "image",
+    "nsfw": "false"
+  },
+  "cat": {
+    "usage": "cat",
+    "aliases": [
+      "cat"
+    ],
+    "example": "cat",
+    "description": "This command will give you a random picture of a cat.",
+    "category": "image",
+    "nsfw": "false"
+  }
+}

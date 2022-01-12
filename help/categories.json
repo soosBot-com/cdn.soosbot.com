@@ -1,0 +1,50 @@
+{
+  "reddit": {
+    "description": "Commands related to Reddit.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/redditIcon.png"
+  },
+  "music": {
+    "description": "Music related commands, such as play, queue, etc.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/musicIcon.png"
+  },
+  "programming": {
+    "description": "Programming related commands.",
+    "icon_url": "https://cdn.iconscout.com/icon/free/png-512/web-programming-2190088-1840536.png"
+  },
+  "api": {
+    "description": "API related commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/apiIcon.png"
+  },
+  "image": {
+    "description": "Image related commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/imageIcon.png"
+  },
+  "dictionary": {
+    "description": "Dictionary commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/dictionaryIcon.png"
+  },
+  "moderation": {
+    "description": "Moderation related commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/moderationIcon.png"
+  },
+  "fun": {
+    "description": "Fun commands.",
+    "icon_url": ""
+  },
+  "configuration": {
+    "description": "Configuration related commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/configurationIcon.png"
+  },
+  "miscellaneous": {
+    "description": "Miscellaneous commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/configurationIcon.png"
+  },
+  "event": {
+    "description": "Event commands. During events, this help category will have help on the event commands.",
+    "icon_url": "https://cdn.soosbot.com/images/commands/eventIcon.png"
+  },
+  "custom": {
+    "description": "Custom commands. To get one, win a event or ask soos#6008",
+    "icon_url": "https://cdn.soosbot.com/images/commands/customIcon.png"
+  }
+}

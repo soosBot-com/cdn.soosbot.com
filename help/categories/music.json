@@ -1,0 +1,105 @@
+{
+  "previous": {
+    "usage": "previous",
+    "aliases": [
+      "previous"
+    ],
+    "example": "previous",
+    "description": "This command will play a previous song in the queue.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "shuffle": {
+    "usage": "shuffle",
+    "aliases": [
+      "shuffle"
+    ],
+    "example": "shuffle",
+    "description": "This command will shuffle the queue.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "next": {
+    "usage": "next",
+    "aliases": [
+      "next"
+    ],
+    "example": "next",
+    "description": "This command go to the next song in the queue.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "queue": {
+    "usage": "queue",
+    "aliases": [
+      "queue"
+    ],
+    "example": "queue",
+    "description": "This command show the current music queue.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "join": {
+    "usage": "join",
+    "aliases": [
+      "join",
+      "connect"
+    ],
+    "example": "join",
+    "description": "This command will join the current voice channel the user is in.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "repeat": {
+    "usage": "repeat <mode>",
+    "aliases": [
+      "repeat",
+      "loop"
+    ],
+    "example": "repeat",
+    "description": "This command will repeat the provided songs.\n Mode can be three different things:\n ``all`` will repeat all the songs in the queue\n``1`` will repeat the current song\n``none`` will repeat nothing. ",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "disconnect": {
+    "usage": "disconnect",
+    "aliases": [
+      "disconnect",
+      "leave"
+    ],
+    "example": "disconnect",
+    "description": "This command will leave the current voice channel the user is in.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "pause": {
+    "usage": "pause",
+    "aliases": [
+      "pause"
+    ],
+    "example": "pause",
+    "description": "This command will pause the current music track.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "play": {
+    "usage": "play <track>",
+    "aliases": [
+      "play"
+    ],
+    "example": "play rick roll",
+    "description": "This command will play what if provided. If you give it a file, it will play that. If you give it a youtube link, it will play that.",
+    "category": "music",
+    "nsfw": "false"
+  },
+  "stop": {
+    "usage": "stop",
+    "aliases": [
+      "stop"
+    ],
+    "example": "stop",
+    "description": "This command will clear the queue and stop playing the current track.",
+    "category": "music",
+    "nsfw": "false"
+  }
+}

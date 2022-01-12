@@ -1,0 +1,23 @@
+{
+  "compile": {
+    "usage": "compile <language> <code>",
+    "aliases": [
+      "compile"
+    ],
+    "example": "https://soosbot.com/compile",
+    "description": "This command will compile the code given the language and the code.",
+    "category": "programming",
+    "nsfw": "false"
+  },
+  "languages": {
+    "usage": "languages",
+    "aliases": [
+      "languages",
+      "langs"
+    ],
+    "example": "languages",
+    "description": "This command will give the user a list of programing languages the command ``compile`` supports.",
+    "category": "programming",
+    "nsfw": "false"
+  }
+}

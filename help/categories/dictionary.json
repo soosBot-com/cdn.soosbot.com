@@ -1,0 +1,22 @@
+{
+  "urban": {
+    "usage": "urban <word>",
+    "aliases": [
+      "urban"
+    ],
+    "example": "urban soosBot",
+    "description": "This command will check urban dictionary for the word provided.",
+    "category": "dictionary",
+    "nsfw": "true"
+  },
+  "define": {
+    "usage": "define <word>",
+    "aliases": [
+      "define"
+    ],
+    "example": "define soosBot",
+    "description": "This command is not available yet.",
+    "category": "dictionary",
+    "nsfw": "false"
+  }
+}

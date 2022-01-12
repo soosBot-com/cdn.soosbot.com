@@ -1,0 +1,12 @@
+{
+  "event": {
+    "usage": "event",
+    "aliases": [
+      "event"
+    ],
+    "example": "event",
+    "description": "This command will show the leaderboard for the previous event, or the upcoming new event's details.",
+    "category": "event",
+    "nsfw": "false"
+  }
+}

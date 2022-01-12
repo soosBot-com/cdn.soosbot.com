@@ -1,0 +1,588 @@
+{
+  "posts":{
+    "usage":"posts <subreddit>",
+    "aliases":[
+      "posts",
+      "r"
+    ],
+    "example":"posts ksi",
+    "description":"This command will grab a post from the subreddit you give it. If the subreddit has a space, just remove it. Unfortunately, you cannot save posts to your collection with this command.",
+    "category":"reddit",
+    "nsfw":"false"
+  },
+  "unban":{
+    "usage":"unban <user>",
+    "aliases":[
+      "unban"
+    ],
+    "example":"unban @soosBot",
+    "description":"This command will unban the user provided.",
+    "category":"moderation",
+    "nsfw":"false"
+  },
+  "reset-status":{
+    "usage":"reset-status",
+    "aliases":[
+      "reset-status",
+      "r-s"
+    ],
+    "example":"reset-status",
+    "description":"This command will reset your soosBot status.",
+    "category":"configuration",
+    "nsfw":"true"
+  },
+  "tts":{
+    "usage":"tts <text>",
+    "aliases":[
+      "text-to-speech",
+      "tts"
+    ],
+    "example":"tts soosBot is a great bot!",
+    "description":"This command will generate a text to speech file from the text given.",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "meme":{
+    "usage":"meme",
+    "aliases":[
+      "meme"
+    ],
+    "example":"meme",
+    "description":"This command will grab a meme from reddit, and will send it in the channel you are in. You can also react to the bookmark <:soosBot_save:795131937592311848> to save the meme to your collection. \n * *See the ``saved`` command.*",
+    "category":"reddit",
+    "nsfw":"true"
+  },
+  "previous":{
+    "usage":"previous",
+    "aliases":[
+      "previous"
+    ],
+    "example":"previous",
+    "description":"This command will play a previous song in the queue.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "warn":{
+    "usage":"warn <user> <reason>",
+    "aliases":[
+      "warn"
+    ],
+    "example":"warn @soos creating the best discord bot there is.",
+    "description":"Will DM the provided user the provided warning. As of now, there is no warn tracking.",
+    "category":"moderation",
+    "nsfw":"false"
+  },
+  "person":{
+    "usage":"person",
+    "aliases":[
+      "person"
+    ],
+    "example":"person",
+    "description":"This command will generate a person that does not exist.",
+    "category":"image",
+    "nsfw":"false"
+  },
+  "event":{
+    "usage":"event",
+    "aliases":[
+      "event"
+    ],
+    "example":"event",
+    "description":"This command will show the leaderboard for the previous event, or the upcoming new event's details.",
+    "category":"event",
+    "nsfw":"false"
+  },
+  "purge":{
+    "usage":"purge <mention, or #> <OPTIONAL #>",
+    "aliases":[
+      "purge"
+    ],
+    "example":"purge 10\nsb purge @soosBot 10",
+    "description":"This command will delete the # of messages given from that channel. If you mention someone, it will delete their messages from the # given, `sb purge @soosBot 50` would go though the last 50 messages in the current channel and delete any that were from @soosBot. `sb purge` will defaultly delete 5 messages if no # or mention is provided.",
+    "category":"moderation",
+    "nsfw":"false"
+  },
+  "fact":{
+    "usage":"fact",
+    "aliases":[
+      "fact"
+    ],
+    "example":"fact",
+    "description":"This command will give a random fact.",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "saved":{
+    "usage":"saved",
+    "aliases":[
+      "saved"
+    ],
+    "example":"saved",
+    "description":"This command will let you browse your saved memes. \n * *See the ``meme`` command.*",
+    "category":"reddit",
+    "nsfw":"true"
+  },
+  "ping":{
+    "usage":"ping",
+    "aliases":[
+      "ping"
+    ],
+    "example":"ping",
+    "description":"ping",
+    "category":"miscellaneous",
+    "nsfw":"false"
+  },
+  "fox":{
+    "usage":"fox",
+    "aliases":[
+      "fox"
+    ],
+    "example":"fox",
+    "description":"This command will give you a random picture of a fox.",
+    "category":"image",
+    "nsfw":"false"
+  },
+  "answer":{
+    "usage":"answer <question>",
+    "aliases":[
+      "answer","8-ball"
+    ],
+    "example":"answer is soosBot the best bot?",
+    "description":"This command will give an answer to the question like a 8ball",
+    "category":"fun",
+    "nsfw":"false"
+  },
+  "shuffle":{
+    "usage":"shuffle",
+    "aliases":[
+      "shuffle"
+    ],
+    "example":"shuffle",
+    "description":"This command will shuffle the queue.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "bird":{
+    "usage":"bird",
+    "aliases":[
+      "bird"
+    ],
+    "example":"bird",
+    "description":"This command will give you a random picture of a bird.",
+    "category":"image",
+    "nsfw":"false"
+  },
+  "roll":{
+    "usage":"roll",
+    "aliases":[
+      "roll"
+    ],
+    "example":"roll",
+    "description":"This command will roll a 6 sided die.",
+    "category":"fun",
+    "nsfw":"false"
+  },
+  "nami":{
+    "usage":"nami",
+    "aliases":[
+      "nami"
+    ],
+    "example":"nami",
+    "description":"nami",
+    "category":"nami",
+    "nsfw":"false"
+  },
+  "next":{
+    "usage":"next",
+    "aliases":[
+      "next"
+    ],
+    "example":"next",
+    "description":"This command go to the next song in the queue.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "queue":{
+    "usage":"queue",
+    "aliases":[
+      "queue"
+    ],
+    "example":"queue",
+    "description":"This command show the current music queue.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "dog":{
+    "usage":"dog",
+    "aliases":[
+      "dog"
+    ],
+    "example":"dog",
+    "description":"This command will give you a random picture of a dog.",
+    "category":"image",
+    "nsfw":"false"
+  },
+  "invite":{
+    "usage":"invite",
+    "aliases":[
+      "invite"
+    ],
+    "example":"invite",
+    "description":"This command will give a invite link for soosBot.",
+    "category":"miscellaneous",
+    "nsfw":"false"
+  },
+  "join":{
+    "usage":"join",
+    "aliases":[
+      "join",
+      "connect"
+    ],
+    "example":"join",
+    "description":"This command will join the current voice channel the user is in.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "repeat":{
+    "usage":"repeat <mode>",
+    "aliases":[
+      "repeat",
+      "loop"
+    ],
+    "example":"repeat",
+    "description":"This command will repeat the provided songs.\n Mode can be three different things:\n ``all`` will repeat all the songs in the queue\n``1`` will repeat the current song\n``none`` will repeat nothing. ",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "disconnect":{
+    "usage":"disconnect",
+    "aliases":[
+      "disconnect",
+      "leave"
+    ],
+    "example":"disconnect",
+    "description":"This command will leave the current voice channel the user is in.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "uptime":{
+    "usage":"uptime",
+    "aliases":[
+      "uptime"
+    ],
+    "example":"uptime",
+    "description":"This command will show how long soosBot has been online for.",
+    "category":"bot",
+    "nsfw":"false"
+  },
+  "weather":{
+    "usage":"weather <place>",
+    "aliases":[
+      "weather"
+    ],
+    "example":"weather new york",
+    "description":"This command will give the weather of the place provided.",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "pause":{
+    "usage":"pause",
+    "aliases":[
+      "pause"
+    ],
+    "example":"pause",
+    "description":"This command will pause the current music track.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "cat":{
+    "usage":"cat",
+    "aliases":[
+      "cat"
+    ],
+    "example":"cat",
+    "description":"This command will give you a random picture of a cat.",
+    "category":"image",
+    "nsfw":"false"
+  },
+  "compile":{
+    "usage":"compile <language> <code>",
+    "aliases":[
+      "compile"
+    ],
+    "example":"https://soosbot.com/compile",
+    "description":"This command will compile the code given the language and the code.",
+    "category":"programming",
+    "nsfw":"false"
+  },
+  "play":{
+    "usage":"play <track>",
+    "aliases":[
+      "play"
+    ],
+    "example":"play rick roll",
+    "description":"This command will play what if provided. If you give it a file, it will play that. If you give it a youtube link, it will play that.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "urban":{
+    "usage":"urban <word>",
+    "aliases":[
+      "urban"
+    ],
+    "example":"urban soosBot",
+    "description":"This command will check urban dictionary for the word provided.",
+    "category":"dictionary",
+    "nsfw":"true"
+  },
+  "stop":{
+    "usage":"stop",
+    "aliases":[
+      "stop"
+    ],
+    "example":"stop",
+    "description":"This command will clear the queue and stop playing the current track.",
+    "category":"music",
+    "nsfw":"false"
+  },
+  "joke":{
+    "usage":"joke",
+    "aliases":[
+      "joke"
+    ],
+    "example":"joke",
+    "description":"This command will give a random joke.",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "love":{
+    "usage":"love",
+    "aliases":[
+      "love"
+    ],
+    "example":"love",
+    "description":"This command will prompt the user to give two names, and will calculate the % of love between them. \\n(Info not 100% accurate)",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "say":{
+    "usage":"say <text>",
+    "aliases":[
+      "say"
+    ],
+    "example":"say",
+    "description":"Sb say soosBot is the best bot.",
+    "category":"fun",
+    "nsfw":"false"
+  },
+  "languages":{
+    "usage":"languages",
+    "aliases":[
+      "languages",
+      "langs"
+    ],
+    "example":"languages",
+    "description":"This command will give the user a list of programing languages the command ``compile`` supports.",
+    "category":"programming",
+    "nsfw":"false"
+  },
+  "ymjoke":{
+    "usage":"ymjoke",
+    "aliases":[
+      "ymjoke"
+    ],
+    "example":"ymjoke",
+    "description":"This command will give a random yo momma joke.",
+    "category":"api",
+    "nsfw":"true"
+  },
+  "quote":{
+    "usage":"quote",
+    "aliases":[
+      "quote"
+    ],
+    "example":"quote",
+    "description":"This command will give a random famous quote",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "set-status":{
+    "usage":"set-status <status>",
+    "aliases":[
+      "set-status"
+    ],
+    "example":"set-status Doing homework!",
+    "description":"This command will set your soosBot status to what is provided. Bad words will be blocked.",
+    "category":"configuration",
+    "nsfw":"false"
+  },
+  "kick":{
+    "usage":"kick <user> <reason>",
+    "aliases":[
+      "kick"
+    ],
+    "example":"kick @soosBot too good bot",
+    "description":"This command will kick the user provided with the reason provided.",
+    "category":"moderation",
+    "nsfw":"false"
+  },
+  "ban":{
+    "usage":"ban <user> <reason>",
+    "aliases":[
+      "ban"
+    ],
+    "example":"ban @soosBot too good bot",
+    "description":"This command will ban the user provided with the reason provided.",
+    "category":"moderation",
+    "nsfw":"false"
+  },
+  "covid":{
+    "usage":"covid <country>",
+    "aliases":[
+      "covid"
+    ],
+    "example":"covid usa",
+    "description":"This command will give covid data for the country given.",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "define":{
+    "usage":"define <word>",
+    "aliases":[
+      "define"
+    ],
+    "example":"define soosBot",
+    "description":"This command is not available yet.",
+    "category":"dictionary",
+    "nsfw":"false"
+  },
+  "profile":{
+    "usage":"profile <user>",
+    "aliases":[
+      "p",
+      "av",
+      "pfp",
+      "info",
+      "whois",
+      "avatar",
+      "status",
+      "profile"
+    ],
+    "example":"profile @soosBot",
+    "description":"This command will give the profile picture and date the account was made of the user. If user is not provided, it will use the person who used the command.",
+    "category":"configuration",
+    "nsfw":"false"
+  },
+  "flag":{
+    "usage":"flag <place>",
+    "aliases":[
+      "flag"
+    ],
+    "example":"flag usa",
+    "description":"This command will give the flag, and other info about the place provided.",
+    "category":"api",
+    "nsfw":"false"
+  },
+  "help":{
+    "usage":"help",
+    "aliases":[
+      "help"
+    ],
+    "example":"help <page or command>",
+    "description":"This command is the help command.",
+    "category":"help",
+    "nsfw":"false"
+  },
+  "bingus":{
+    "usage":"bingus",
+    "aliases":[
+      "bingus"
+    ],
+    "example":"bingus",
+    "description":"This command is a custom command. To get one, win a event or ask soos#6008",
+    "category":"custom",
+    "nsfw":"false"
+  },
+  "TheFatBird":{
+    "usage":"TheFatBird",
+    "aliases":[
+      "TheFatBird"
+    ],
+    "example":"TheFatBird",
+    "description":"This command is a custom command. To get one, win a event or ask soos#6008",
+    "category":"custom",
+    "nsfw":"false"
+  },
+  "wink":{
+    "usage":"wink",
+    "aliases":[
+      "wink"
+    ],
+    "example":"wink",
+    "description":"This command is a custom command. To get one, win a event or ask soos#6008",
+    "category":"custom",
+    "nsfw":"false"
+  },
+  "horny":{
+    "usage":"horny",
+    "aliases":[
+      "horny"
+    ],
+    "example":"horny",
+    "description":"This command is a custom command. To get one, win a event or ask soos#6008",
+    "category":"custom",
+    "nsfw":"false"
+  },
+  "whoismars":{
+    "usage":"whoismars",
+    "aliases":[
+      "whoismars"
+    ],
+    "example":"whoismars",
+    "description":"This command is a custom command. To get one, win a event or ask soos#6008",
+    "category":"custom",
+    "nsfw":"false"
+  },
+  "thanks":{
+    "usage":"thanks",
+    "aliases":[
+      "thanks"
+    ],
+    "example":"thanks",
+    "description":"This command is a custom command. To get one, win a event or ask soos#6008",
+    "category":"custom",
+    "nsfw":"false"
+  },
+  "prefix":{
+    "usage":"prefix <prefix>",
+    "aliases":[
+      "prefix",
+      "changeprefix",
+      "change-prefix"
+    ],
+    "example":"prefix -",
+    "description":"This command will change soosBot's prefix. Mention soosBot to view its current prefix.",
+    "category":"moderation",
+    "nsfw":"false"
+  },
+  "translate": {
+    "usage": "sb translate <text>",
+    "aliases": [
+      "translate"
+    ],
+    "example": "translate \u00bfHola como estas?",
+    "description": "This command will translate the given text into english.",
+    "category": "api",
+    "nsfw": "false"
+  },
+  "translate-to": {
+    "usage": "sb translate-to <language> <text>",
+    "aliases": [
+      "translate-to"
+    ],
+    "example": "translate spanish Hello, how are you?",
+    "description": "This command will translate the given text into the given language.",
+    "category": "api",
+    "nsfw": "false"
+  }
+}
